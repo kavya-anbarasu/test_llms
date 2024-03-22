@@ -1,17 +1,9 @@
-# model playground
+# Test Foundation Models (LLMs)!
 
-## TLDR
-
-Easily compare different LLM and provider outputs by quality, speed, and cost.
-
-## Problem
-
-With fast innovations in foundation models, it's hard to figure out which of the newest models and providers I should be using (ex: should I use Claude 3 Opus instead of GPT4? is the prompt simple enough to run a cheaper open source model?)
-
-## Solution
-
-This tool helps you run the same prompt on multiple different models and providers to get a basic sense of how responses might differ and the comparative speed and cost of each query.
+With this LLM playground, you can run the same prompt on different models (claude, gpt, etc.) and test what responses you get/speed/cost/etc. Easy to compare different models with each other.
 
 ## Setup
 
-`npm i` installs the necessary packages and `npm run dev` runs the app locally. Note this project is built on top of [Convex](https://www.convex.dev/) and running locally or deploying it would require an account there.
+`npm i` to install pacakges
+`npm run dev` to run app locally
+Project is built on top of [Convex](https://www.convex.dev/)— need an account and need to update `/convex/auth.config.js` with appropriate dev keys.
